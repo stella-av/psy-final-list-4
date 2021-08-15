@@ -1,28 +1,7 @@
-// In this file you can specify the trial data for your experiment
-
-/*
-//Trial info for self-paced-reading task
-const trial_info_self = [
-    {
-        QUD: "The judge asks: 'What did you see under the bed?' The witness responds",
-        sentence: "all | of the | yellow marbles | are | inside | the case.'",
-        option1: "Next",
-    },
-];
-
-//Trial info for validiy task
-const third_screen = [
-    {
-        optionLeft: "agree",
-        optionRight: "disagree",
-        QUD: "Judges answer",
-        question: "Do you agree with the judge?",
-
-    }
-];
-*/
-
 //MAIN TRIALS **CORRECT ORDER**
+
+//  Screen 1
+
 //POLAR QUD 
 const info_Pol1 = [
     {
@@ -978,7 +957,7 @@ const F_What7 = [
 		question: "What did you find on the shelf?",
     }
 ];
-const f_What8 = [
+const F_What8 = [
     {
         option1: "Next",
 		question: "What did you find on the shelf?",

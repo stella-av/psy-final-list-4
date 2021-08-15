@@ -169,12 +169,12 @@ const Polar4 = magpieViews.view_generator(
 		data: info_Pol4,
 	},
 	{
-		stimulus_container_generator: function(config, CT) {
-			return `<div class='magpie-view'>
-				<section class="magpie-text-container">
-					<p class="magpie-view-text">${config.text}</p>
-				</section>
-			 </div>`;
+		answer_container_generator: function (config, CT) {
+        return `<div class='magpie-view-answer-container'>
+                    <p class='magpie-view-question'>${config.data[CT].question}</p>
+                    <label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+                    <input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+                </div>`;
 		}
 	}
 );
@@ -220,7 +220,7 @@ const Polar7 = magpieViews.view_generator(
 	{
 		trials: info_Pol7.length,
 		name: 'Polar7',
-		info_Pol7,
+		data: info_Pol7,
 	},
 	{
 		answer_container_generator: function (config, CT) {
@@ -292,7 +292,7 @@ const Polar11 = magpieViews.view_generator(
 	{
 		trials: info_Pol11.length,
 		name: 'Polar11',
-		info_Pol11,
+		data: info_Pol11,
 	},
 	{
 		answer_container_generator: function (config, CT) {
@@ -2517,7 +2517,6 @@ const Filler_Polar13 = magpieViews.view_generator(
                 </div>`;
 		}
 	}
-	}
 );
 const Filler_Polar14 = magpieViews.view_generator(
 	"forced_choice", 
@@ -3338,7 +3337,7 @@ const Filler_Did5 = magpieViews.view_generator(
 	{
 		trials: F_Did5.length,
 		name: 'Filler_Did5',
-		data:F_Di5,
+		data:F_Did5,
 	},
 	{
 		answer_container_generator: function (config, CT) {
