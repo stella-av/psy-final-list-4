@@ -222,6 +222,8 @@ const info_HM12 = [
     }
 ];
 
+// Screen 2
+
 //SUP Answers
 const trial_info_SUP1 = [
     {
@@ -476,6 +478,9 @@ const trial_info_COMP18 = [
         option1: "Next",
     },
 ];
+
+//Screen 3
+
 //Inferences
 const trial_info_INF1 = [
     {
@@ -803,9 +808,10 @@ const trial_info_INF36 = [
 ];
 
 // FILLER ITEMS **CORRECT**
-// QUD
 
-//Polar
+//Screen 1
+
+//Polar Questions
 const F_Polar1 = [
      {
         option1: "Next",
@@ -914,7 +920,7 @@ const F_Polar18 = [
 		question: "Did you hear nearly ten cars on the street?",
      }
 ];
-// What
+//What Questions
 const F_What1 = [
     {
         option1: "Next",
@@ -1023,7 +1029,7 @@ const F_What18 = [
 		question: "What did you hear on the street?",
     }
 ];
-//How Many
+//How Many Questions
 const F_HM1 = [
     {
         option1: "Next",
@@ -1132,7 +1138,7 @@ const F_HM18 = [
 		question: "How many cars did you hear on the street?",
     }
 ];
-// Did
+// Did Questions
 const F_Did1 = [
     {
         option1: "Next",
@@ -1242,9 +1248,9 @@ const F_Did18 = [
     }
 ];
 
+// Screen 2
 
 //Answers
-
 const Filler_Ans1= [
     {
         QUD: "The witness responds:",
@@ -1750,8 +1756,9 @@ const Filler_Ans72= [
     },
 ];
 
-//Inferences
+//Screen 3
 
+//Inferences
 const Filler_info1 = [
     {
         optionLeft: "not justified at all",
@@ -2414,6 +2421,3 @@ const Filler_info72 = [
         rating: "1",
     }
 ];
-
-
-
