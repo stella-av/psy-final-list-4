@@ -69,8 +69,8 @@ $("document").ready(function() {
  
              // 52
              Filler_HowMany14,
-             Filler_Answer50,
-             Filler_INF50,
+             Filler_Answer54,
+             Filler_INF54,
  
              //2
              Filler_Polar2,
