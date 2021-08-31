@@ -1,6 +1,6 @@
 //MAIN TRIALS **CORRECT ORDER**
 
-//  Screen 1
+//Screen 1
 
 //POLAR QUD 
 const info_Pol1 = [
@@ -222,7 +222,7 @@ const info_HM12 = [
     }
 ];
 
-// Screen 2
+//Screen 2
 
 //SUP Answers
 const trial_info_SUP1 = [
@@ -1248,7 +1248,7 @@ const F_Did18 = [
     }
 ];
 
-// Screen 2
+//Screen 2
 
 //Answers
 const Filler_Ans1= [

@@ -254,7 +254,7 @@ const Polar12 = magpieViews.view_generator(
 		}
 	}
 );
-//What Quesions
+//What Questions
 const What1 = magpieViews.view_generator(
 	"forced_choice", 
 	//config information
@@ -1272,7 +1272,7 @@ const COMP18 = magpieViews.view_generator("self_paced_reading",
 
 //Screen 3
 
-// Inferences
+//Inferences
 const INF1 = magpieViews.view_generator('rating_scale',
     {
         trials: trial_info_INF1.length,
@@ -2864,7 +2864,7 @@ const Filler_What18 = magpieViews.view_generator(
 		}
 	}
 );
-//HowMany questions
+//How Many questions
 const Filler_HowMany1 = magpieViews.view_generator(
 	"forced_choice", 
 	//config information
